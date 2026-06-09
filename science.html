@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      .header {
+          background-color: #74b9ff;
+      }
+      footer {
+          background-color: #0984e3;
+          padding: 10px;
+      }
+
+      .science-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          gap: 20px;
+          margin: 40px auto;
+          width: 85%;
+      }
+
+      .science-card {
+          background-color: #ecf5ff;
+          border-radius: 10px;
+          padding: 15px;
+          text-align: center;
+          transition: transform 0.2s ease;
+      }
+
+      .science-card:hover {
+          transform: translateY(-5px);
+      }
+
+      .science-card img {
+          width: 100%;
+          max-height: 150px;
+          object-fit: cover;
+          border-radius: 8px;
+      }
+
+      .science-card figcaption{
+        margin-top: 10px;
+        font-size: 0.95em;
+        color: #2d3436;
+        font-weight: 600;
+      }
+
+      .science-card h3{
+        margin: 10px 0 5px;
+        color: #0984e3;
+      }
+  </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="images/science1.jpg" class="img-placeholder" alt="Science Image">
+    </div>
+
+    <h2>The World of Science Around Us</h2>
+    <p>Science is constantly at work all around us, even in the quietest moments of our daily lives. Every time you turn on a light switch or use a smartphone, you are witnessing the incredible power of electricity and physics in action.</p>
+    <p>The natural world right outside our windows relies on complex biological processes to thrive. Green plants silently absorb sunlight to create their own food through photosynthesis, which in turn provides the vital oxygen we need to breathe.</p>
+    <p>Even the simple act of cooking a meal is actually a fascinating chemistry experiment in disguise. When you heat food, molecules break apart and bond in new ways to completely change its flavor, texture, and color.</p>
+
+    <div class="header">
+        <h1>Grade 5 Science</h1>
+    </div>
+
+    <div class="content">
+        <div style="text-align: center;">
+            <h2>Chapters:</h2>
+            <ol style="display: inline-block; text-align: left;">
+            <li>Plant and Animal Life</li>
+            <li>Human Body Systems</li>
+            <li>States of Matter</li>
+            <li>Force, Work and Energy</li>
+            <li>Our Enviroment</li>
+            <li>Solar System and Space</li>
+            </ol>
+
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LVlhhN4mfgg?si=Rev54sQGatu4WNSx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+<section>
+  <h2 style="text-align:center; margin-top: 40px;">Explore Science Concepts</h2>
+  <div class="science-grid">
+    <figure class="science-card">
+      <img src="images/plant_life.jpg" alt="Plant Life">
+      <figcaption>Plants make food using sunlight - the process of photosynthesis.</figcaption>
+    </figure>
+
+    <figure class="science-card">
+      <img src="images/human-body.jpg" alt="Human Body">
+      <figcaption>The human body has systems like circulatory, digestive, and respiratory.</figcaption>
+    </figure>
+
+    <figure class="science-card">
+      <img src="images/forms_of_matter.jpg" alt="States of Matter">
+      <figcaption>Matter exists in three states: solid, liquid, and gas.</figcaption>
+    </figure>
+
+    <figure class="science-card">
+      <img src="images/solar-system.png" alt="Solar System">
+      <figcaption>The solar system has planets, moons, and the Sun as its center.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<footer>Explore Science, Discover the World!</footer>
+</body>
+</html>
